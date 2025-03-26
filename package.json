@@ -1,16 +1,28 @@
 {
-  "name": "convert_svf_pdf",
+  "name": "convert_svg_pdf",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/lsaf/webdav/repo/general/biostat/apps/convert_svg_pdf",
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.8",
+    "@mui/x-data-grid-pro": "^7.28.1",
+    "@react-pdf/renderer": "^4.3.0",
+    "@svgr/webpack": "^8.1.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "buffer": "^6.0.3",
+    "jspdf": "^3.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "svg-parser": "^2.0.4",
+    "svg2pdf.js": "^2.5.0",
+    "web-vitals": "^2.1.4",
+    "xml-js": "^1.6.11"
   },
   "scripts": {
     "start": "react-scripts start",
