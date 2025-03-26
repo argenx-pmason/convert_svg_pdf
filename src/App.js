@@ -239,7 +239,7 @@ const SvgToPdfConverter = () => {
               host +
               "/lsaf/webdav/" +
               "repo" +
-              "/general/biostat/apps/encrypt/index.html?"
+              "/general/biostat/apps/encrypt/index.html?app=convert_svg_pdf"
           )
           .focus();
       }, 3000);
